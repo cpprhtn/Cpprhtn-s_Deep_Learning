@@ -1,5 +1,5 @@
 # Cppthrn's_Deep_Learning
-- (주의)Python 문법에 대한 설명은 하지않음 
+- (주의)Python 문법에 대한 설명은 하지않음
 
 AI기술인 머신러닝과 딥러닝중 딥러닝을 먼저 알아야 한다고 생각한다.
 
@@ -22,3 +22,8 @@ Python Verson = 3.7
 
 Development environment = Anaconda - Spyder 4.0.1
 ```
+
+## 강의 목록
+|Date|Title|Description|
+|:---:|:---|---|
+|08_18|[퍼셉트론](./1_퍼셉트론)|퍼셉트론 개념|
