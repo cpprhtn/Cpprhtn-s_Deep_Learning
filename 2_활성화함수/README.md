@@ -2,7 +2,7 @@
 
 - 앞서 배운 편향이 추가된 식을 아래와 같이 표현할 수 있다.
 
-
+![2-1](https://user-images.githubusercontent.com/63298243/90618819-6f8a9880-e24b-11ea-9ce5-8a4a121022ad.jpeg)
 
 - 입력 신호의 총합이 h(x)라는 함수를 거처 0과 1로 출력됨을 알 수 있다.
 
@@ -35,3 +35,16 @@ def step_F(x):
 - 위 식을 간단히 설명하자면
   - 넘파이 배열에 부등호 연산을 수행시 bool 배열이 생성
   - 이를 int형으로 형변환하여 0과 1로 return
+```Py
+import numpy as np
+import matplotlib.pyplot as plt
+x = np.arange(-5.0, 5.0, 0.1)
+y = step_F(x)
+plt.plot(x, y)
+plt.ylim(-0.1, 1.1)
+plt.show()
+```
+
+![2-2](https://user-images.githubusercontent.com/63298243/90619242-f475b200-e24b-11ea-869e-803aa49a5df7.png)
+
+- 위 그림처럼 0을 기준으로 y값이  0과 1로 나뉜다.
