@@ -32,6 +32,14 @@
 - 가중치가 클수록 해당 신호가 그만큼 중요함을 나타낸다.
 
 
+### 편향
+- 편향은 뉴런이 얼마나 쉽게 활성화되느냐를 제어하는 매개변수로 b를 사용한다.
+
+- 가장 위에있는 퍼셉트론 구조에서 편향을 명시하면 아래그림과 같다.
+![1-5](https://user-images.githubusercontent.com/63298243/90614786-1835f980-e246-11ea-8d27-3e677818c6ee.jpeg)
+![1-6](https://user-images.githubusercontent.com/63298243/90614945-53d0c380-e246-11ea-8d50-987de602c42b.png)
+
+
 ## 단층 퍼셉트론과 다층 퍼셉트론
 
 ![1-3](https://user-images.githubusercontent.com/63298243/90504078-77830380-e18b-11ea-95b1-30377c70b375.jpg)
