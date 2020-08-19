@@ -27,3 +27,5 @@ Development environment = Anaconda - Spyder 4.0.1
 |Date|Title|Description|
 |:---:|:---|---|
 |08_18|[퍼셉트론](./1_퍼셉트론)|퍼셉트론 개념|
+|08_19|퍼셉트론|편향 개념 추가|
+|ㄴ|[활성화 함수](./2_활성화함수)|활성화 함수 설명|
