@@ -77,7 +77,9 @@ plt.show()
 
 ## 렐루 함수 (Rectified Linear Unit)
 - 비교적 최근에 만들어진 신경망 활성화 함수이다.
+- 시그모이드 함수보다 많이 사용한다.
 
+<img width="188" alt="2-4" src="https://user-images.githubusercontent.com/63298243/90751221-d02fd900-e310-11ea-81a0-35e16c3f6e7a.png">
 
 #### 렐루 함수 구현
 ```Py
@@ -85,12 +87,18 @@ def relu(x):
   return np.maximum(0, x) //두 입력중 큰 값을 선택해 반환
 ```
 
-## Leaky ReLU (LReLU)
-- 렐루의 단점을 보완한 활성화 함수이다.
+![2-5](https://user-images.githubusercontent.com/63298243/90751230-d1f99c80-e310-11ea-8e71-8d9cd35b32e9.png)
 
-#### L-렐루 함수 구현
+## Parametric ReLU (PReLU)
+- 렐루의 단점을 보완한 활성화 함수이다.
+  - 렐루에서는 x값이 -0.1이어도 0, -100이어도 0이 나오기 때문에 음수값에 대한 정도를 반영하기 어렵다.
+
+#### P-렐루 함수 구현
 ```Py
 def LeakyReLU(x):
     a = 0.05 //0 이하에 곱해줄 값
     return np.maximum(a*x, x)
 ```
+- 여기서 a값이 0.01일때 LeakyReLU(LReLU)라고 한다.
+
+![2-6](https://user-images.githubusercontent.com/63298243/90751237-d3c36000-e310-11ea-9965-59f175127c80.png)
