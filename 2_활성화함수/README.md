@@ -6,11 +6,11 @@
 
 - 입력 신호의 총합이 h(x)라는 함수를 거처 0과 1로 출력됨을 알 수 있다.
 
-## 활성화 함수란
+### 활성화 함수란
 - 위에서 등장한 h(x)라는 함수처럼 입력 신호의 총합을 출력 신호로 변환하는 함수를 일빈적으로 활성화 함수라고 한다.
 - 입력 신호의 총합이 활성화(0/1)를 일으키는지를 정하는 역할을 한다.
 
-### 계단 함수
+## 계단 함수
 - 게단 함수는 퍼셉트론에서 사용하는 활성화 함수이다.
 - 위의 조건 분기 식처럼 입력이 0을 넘으면 1을 출력하고, 이외에는 0을 출력하는 함수이다.
 
@@ -35,6 +35,9 @@ def step_F(x):
 - 위 식을 간단히 설명하자면
   - 넘파이 배열에 부등호 연산을 수행시 bool 배열이 생성
   - 이를 int형으로 형변환하여 0과 1로 return
+
+
+#### 함수 그래프
 ```Py
 import numpy as np
 import matplotlib.pyplot as plt
@@ -48,3 +51,24 @@ plt.show()
 ![2-2](https://user-images.githubusercontent.com/63298243/90619242-f475b200-e24b-11ea-869e-803aa49a5df7.png)
 
 - 위 그림처럼 0을 기준으로 y값이  0과 1로 나뉜다.
+
+## 시그모이드 함수 (Sigmoid Function)
+- 시그모이드 함수는 신경망에서 사용하는 활성화 함수 중 하나이다.
+- S자 모양의 함수라는 뜻이다.
+
+#### 시그모이드 수식
+```Py
+def sigmoid(x):
+  return 1 / (1 + np.exp(-x))
+```
+
+#### 함수 그래프
+```Py
+import numpy as np
+import matplotlib.pyplot as plt
+x = np.arange(-5.0, 5.0, 0.1)
+y = sigmoid(x)
+plt.plot(x, y)
+plt.ylim(-0.1, 1.1)
+plt.show()
+```
