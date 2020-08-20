@@ -56,7 +56,7 @@ plt.show()
 - 시그모이드 함수는 신경망에서 사용하는 활성화 함수 중 하나이다.
 - S자 모양의 함수라는 뜻이다.
 
-#### 시그모이드 수식
+#### 시그모이드 함수 구현
 ```Py
 def sigmoid(x):
   return 1 / (1 + np.exp(-x))
@@ -71,4 +71,26 @@ y = sigmoid(x)
 plt.plot(x, y)
 plt.ylim(-0.1, 1.1)
 plt.show()
+```
+
+![2-3](https://user-images.githubusercontent.com/63298243/90748457-2ac73600-e30d-11ea-93c3-c96350ab2763.png)
+
+## 렐루 함수 (Rectified Linear Unit)
+- 비교적 최근에 만들어진 신경망 활성화 함수이다.
+
+
+#### 렐루 함수 구현
+```Py
+def relu(x):
+  return np.maximum(0, x) //두 입력중 큰 값을 선택해 반환
+```
+
+## Leaky ReLU (LReLU)
+- 렐루의 단점을 보완한 활성화 함수이다.
+
+#### L-렐루 함수 구현
+```Py
+def LeakyReLU(x):
+    a = 0.05 //0 이하에 곱해줄 값
+    return np.maximum(a*x, x)
 ```
