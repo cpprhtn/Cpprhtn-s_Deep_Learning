@@ -31,4 +31,4 @@ Development environment = Anaconda - Spyder 4.0.1
 |08_19|퍼셉트론|편향 개념 추가|
 |ㄴ|[활성화 함수](./2_활성화함수)|활성화 함수 설명|
 |08_20|[활성화 함수](./2_활성화함수)|마무리|
-|08_21|[신경망 연산](./3_신경망연산)|신경망 연산과정 설명|
+|08_21|[신경망 연산](https://github.com/cpprhtn/Cppthrn-s_Deep_Learning/tree/master/3_%EC%8B%A0%EA%B2%BD%EB%A7%9D%EC%97%B0%EC%82%B0)|신경망 연산과정 설명|
