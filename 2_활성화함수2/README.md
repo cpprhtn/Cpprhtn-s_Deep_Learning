@@ -8,14 +8,33 @@
 ### 항등함수
 - 항등함수는 회귀(Regression)문제에서 사용한다.
   - 회귀는 연속적인 수치를 예측할 때를 말한다.
-  - 몸무게 예측, 키 예측 등등
+  - 몸무게 예측, 키 예측 등
 
-  ![2-8](https://user-images.githubusercontent.com/63298243/91726627-8af68b80-ebdb-11ea-962f-d0e24e96879c.png)
+![2-8](https://user-images.githubusercontent.com/63298243/91726627-8af68b80-ebdb-11ea-962f-d0e24e96879c.png)
 
 - 항등함수는 말 그대로 입력한 값 그대로 출력층에 내보내 주는 역할이다.
 
 
 ### 소프트맥스 함수
--
-  ![2-9](https://user-images.githubusercontent.com/63298243/91726635-8cc04f00-ebdb-11ea-9cdb-6dfa813c3080.png)
-  ![2-10](https://user-images.githubusercontent.com/63298243/91726640-8e8a1280-ebdb-11ea-9d70-c257e7ad3ea6.png)
+- 소프트맥스는 분류(Classification)문제에서 사용한다.
+  - 분류는 데이터가 어떤 클래스에 속하느냐를 나타낸다.
+  - 개/고양이 분류, 숫자 인식 등
+
+- 소프트맥스 함수의 수식은 아래와 같다.
+- 복잡해 보이지만 이 함수의 출력은 0과 1 사이의 실수이며, 각 소프트맥스 출력의 총합은 1이다.
+  - 확률과 같은 의미
+- 소프트맥스 함수를 적용해도 입력들의 대소관계는 변하지 않는다.
+
+![2-11](https://user-images.githubusercontent.com/63298243/91728608-4ae4d800-ebde-11ea-91a8-6c2f23e5c759.png)
+
+<br> <br>
+- 위의 수식에서 소프트맥스 함수가 지수 함수를 포함하고 있어 값이 아주 빠르게 증가하는데, 이는 **오버플로우(overflow)**를 초래할 수 있다.
+
+- 이를 해결하기 위해 아래와 같은 과정을 통해 수식을 개선했다.
+  - 지수 함수가 너무 커져 오버플로우가 일어나는 것을 방지하기 위해서 입력신호 중 최댓값으로 빼주면 된다.
+![2-9](https://user-images.githubusercontent.com/63298243/91726635-8cc04f00-ebdb-11ea-9cdb-6dfa813c3080.png)
+
+
+### 신경망에서의 적용
+- 아래의 그림처럼 마지막 출력에서 항등함수나 소프트맥스 함수가 적용된다.
+![2-10](https://user-images.githubusercontent.com/63298243/91726640-8e8a1280-ebdb-11ea-9d70-c257e7ad3ea6.png)
