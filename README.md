@@ -34,7 +34,7 @@ Development environment = Anaconda - Spyder 4.0.1
 |08_21|[신경망 연산](https://github.com/cpprhtn/Cppthrn-s_Deep_Learning/tree/master/3_%EC%8B%A0%EA%B2%BD%EB%A7%9D%EC%97%B0%EC%82%B0)|신경망 연산과정 설명|
 |08_22|[신경망 구현](./4_신경망구현)|신경망 구현 코드|
 |ㄴ|신경망 연산|추가설명|
-|08_31|[활성화 함수2]|출력층인 softmax함수 등에 대한 설명|
+|08_31|[활성화 함수2](./2_활성화함수2)|출력층인 softmax함수 등에 대한 설명|
 
 
 
