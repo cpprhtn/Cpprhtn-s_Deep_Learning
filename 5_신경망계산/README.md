@@ -3,7 +3,7 @@
 
 ## 상황 가정
 여러분이 고양이 한마리를 키운다고 가정한다.
-
+![5-2](https://user-images.githubusercontent.com/63298243/92117574-4dd70700-ee30-11ea-91e4-58b433ea913f.jpg)
 고양이의 행동패턴을 보며 살이 얼만큼 찌는지 확인해보고 간식량을 조절하는게 목표이다.
 
 여러분이 고양이를 관찰하면서 아래 표를 기록했다.
@@ -28,10 +28,13 @@
 
 ## 신경망 구현
 <img width="1320" alt="5-1" src="https://user-images.githubusercontent.com/63298243/92112969-90491580-ee29-11ea-8db7-5ec3a7fbb696.png">
-- 3층신경망 구상
+
+<3층신경망 구상>
 
 
+<img width="1320" alt="5-3" src="https://user-images.githubusercontent.com/63298243/92117580-4fa0ca80-ee30-11ea-9c21-b8e902e9c625.png">
 
+<변수 설명>
 - 입력층
   - x1: 간식 섭취 횟수
   - x2: 놀이시간
@@ -39,3 +42,10 @@
 - 은닉층 1: z1, z2
 - 은닉층 2: z1, z2
 - 출력층 y: 몸무게 증가량
+
+
+<img width="1320" alt="5-4" src="https://user-images.githubusercontent.com/63298243/92117584-52032480-ee30-11ea-8b03-417ddf35dfd0.png">
+
+
+<W,b 설정>
+* Wab : 화살표가 도착하는 방향의 변수 번호(a) + 화살표가 출발하는 방향의 변수 번호(b)
