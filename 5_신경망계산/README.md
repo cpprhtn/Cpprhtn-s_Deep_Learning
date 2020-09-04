@@ -46,7 +46,30 @@
 <img width="1320" alt="5-3" src="https://user-images.githubusercontent.com/63298243/92117580-4fa0ca80-ee30-11ea-9c21-b8e902e9c625.png">
 
 
-<W,b 설정>
-* Wab : 화살표가 도착하는 방향의 변수 번호(a) + 화살표가 출발하는 방향의 변수 번호(b)
+<W(가중치),b(편향) 설정>
+* W(ab) : 화살표가 도착하는 방향의 변수 번호(a) + 화살표가 출발하는 방향의 변수 번호(b)
+  - 정공법: 0.01 * np.random.randn(1,100)처럼 표준편차가 0.01인 정규분포를 사용하는것 (0.01 * 정규분포에서 생성된 값)
+  - 현재: 계산의 편의성을 위해 0.1~0.5사이의 값을 무작위로 사용
+* b(bias) : 주로 1을 사용하지만 여기서는 0.2를 사용해볼 것.
+
+- Input layer -> hidden layer 1
+  - W11: 0.2
+  - W12: 0.1
+  - W13: 0.4
+  - W21: 0.5
+  - W22: 0.3
+  - W23: 0.1
+
+- hidden layer 1 -> hidden layer 2
+  - W11: 0.2
+  - W12: 0.4
+  - W21: 0.3
+  - W22: 0.2
+
+- hidden layer 2 -> Output layer
+  - W11: 0.1
+  - W12: 0.2
+
+- b(편향): 0.2
 
 <img width="1320" alt="5-4" src="https://user-images.githubusercontent.com/63298243/92117584-52032480-ee30-11ea-8b03-417ddf35dfd0.png">
