@@ -67,6 +67,8 @@ Development environment = Anaconda - Spyder 4.0.1
 |26|[CNN 실습](./AI_Class/026/CNN.ipynb)|mnist data를 이용한 CNN 실습|
 |27|[CNN 실습2](./AI_Class/027/CNN2.ipynb)|CNN으로 개와 고양이 이미지를 분류|
 |28|[CNN 실습3](./AI_Class/028/CNN3.ipynb)|CNN으로 의류 이미지 분류|
+|*|RNN||
+|29|[RNN 이론](./AI_Class/029/README.md)|RNN 이론에 대한 설명|
 
 ## 딥러닝을 다루면서 드는 생각들
 - 기계가 사람처럼 생각이 가능한가?
