@@ -23,8 +23,13 @@ Python Verson = 3.7
 
 Development environment = Anaconda - Spyder 4.0.1
 ```
+## 개론 강의 목록
+|Date|Title|Description|
+|:---:|:---|:---|
+|1|[인공지능 소개](./an introduction to AI literature/README.md)||
+|1|[인공지능 발전의 역사](./an introduction to AI literature/README.md)||
 
-## 강의 목록
+## 실습 강의 목록
 |Date|Title|Description|
 |:---:|:---|:---|
 |1|[머신러닝의 종류](./AI_Class/001/README.md)|지도학습, 비지도학습, 강화학습, 준지도학습에 대한 설명|
