@@ -43,11 +43,11 @@ RNN에서 은닉층에서 활성화 함수를 통해 결과를 내보내는 역�
 
 ![029-7](https://user-images.githubusercontent.com/63298243/105148902-421d8000-5b46-11eb-88e9-466b947316ca.png)
 
-## Rnn의 연산과정
+## RNN의 연산과정
 
 ![029-8](https://user-images.githubusercontent.com/63298243/105148905-421d8000-5b46-11eb-9000-f04cd9c648b5.png)
 
-현재 시점 t에서의 은닉 상태값을 h<sub>t</sub>라고 정의하겠습니다. 은닉층의 메모리 셀은 h<sub>t</sub>를 계산하기 위해서 총 두 개의 가중치를 갖게 됩니다. 하나는 입력층에서 입력값을 위한 가중치 Wx이고, 하나는 이전 시점 t-1의 은닉 상태값인 h<sub>t-1</sub>을 위한 가중치 W<sub>h</sub>입니다.
+현재 시점 t에서의 은닉 상태값을 h<sub>t</sub>라고 정의하겠습니다. 은닉층의 메모리 셀은 h<sub>t</sub>를 계산하기 위해서 총 두 개의 가중치를 갖게 됩니다. 하나는 입력층에서 입력값을 위한 가중치 W<sub>x</sub>이고, 하나는 이전 시점 t-1의 은닉 상태값인 h<sub>t-1</sub>을 위한 가중치 W<sub>h</sub>입니다.
 
 이를 식으로 표현하면 다음과 같습니다.
 은닉층 : h<sub>t</sub>=tanh(W<sub>x</sub>x<sub>t</sub>+W<sub>h</sub>h<sub>t-1</sub>+b)
@@ -62,7 +62,7 @@ W<sub>h</sub> : (D<sub>h</sub>×D<sub>h</sub>)
 h<sub>t-1</sub> : (D<sub>h</sub>×1)
 b : (D<sub>h</sub>×1)
 
-배치 크기가 1이고, d와 Dh 두 값 모두를 4로 가정하였을 때, RNN의 은닉층 연산을 그림으로 표현하면 아래와 같습니다.
+배치 크기가 1이고, d와 D<sub>h</sub> 두 값 모두를 4로 가정하였을 때, RNN의 은닉층 연산을 그림으로 표현하면 아래와 같습니다.
 
 ![029-9](https://user-images.githubusercontent.com/63298243/105148906-42b61680-5b46-11eb-96f8-ea38ab42621a.png)
 
