@@ -43,6 +43,13 @@ RNN에서 은닉층에서 활성화 함수를 통해 결과를 내보내는 역�
 
 ![029-7](https://user-images.githubusercontent.com/63298243/105148902-421d8000-5b46-11eb-88e9-466b947316ca.png)
 
+## RNN의 내부 구조
+
+<그림 10>
+
+RNN은 x<sub>t</sub>와 h<sub>t-1</sub>이라는 두 개의 입력이 각각의 가중치와 곱해져서 메모리 셀의 입력이 됩니다. 그리고 이를 하이퍼볼릭탄젠트 함수의 입력으로 사용하고 이 값은 은닉 상태가 됩니다.
+
+
 ## RNN의 연산과정
 
 ![029-8](https://user-images.githubusercontent.com/63298243/105148905-421d8000-5b46-11eb-9000-f04cd9c648b5.png)
@@ -51,7 +58,8 @@ RNN에서 은닉층에서 활성화 함수를 통해 결과를 내보내는 역�
 은닉층의 메모리 셀은 h<sub>t</sub>를 계산하기 위해서 총 두 개의 가중치를 갖게 됩니다.  
 하나는 입력층에서 입력값을 위한 가중치 W<sub>x</sub>이고, 하나는 이전 시점 t-1의 은닉 상태값인 h<sub>t-1</sub>을 위한 가중치 W<sub>h</sub>입니다.
 
-이를 식으로 표현하면 다음과 같습니다.
+이를 식으로 표현하면 다음과 같습니다.  
+
 은닉층 : h<sub>t</sub>=tanh(W<sub>x</sub>x<sub>t</sub>+W<sub>h</sub>h<sub>t-1</sub>+b)  
 출력층 : y<sub>t</sub>=f(W<sub>y</sub>h<sub>t</sub>+b)  
 단, f는 비선형 활성화 함수 중 하나.
