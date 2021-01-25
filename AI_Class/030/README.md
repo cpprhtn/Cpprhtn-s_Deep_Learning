@@ -8,7 +8,7 @@
 
 RNN은 이전의 계산이 결과에 영향을 주는 형태였습니다. 하지만 이는 바닐라 RNN의 time step이 길어질 수록 앞의 정보가 뒤로 충분히 전달되지 못합니다.
 
-<이미지 1>
+![030-1](https://user-images.githubusercontent.com/63298243/105702807-aa59d080-5f4f-11eb-8576-eff1ddad4672.png)
 
 위의 그림에서 X<sub>1</sub>의 데이터 양을 진한 파란색으로 표현했을때, time step가 증가할수록 파란색이 옅어지는 것을 볼 수 있습니다.
 
@@ -18,7 +18,7 @@ RNN은 이전의 계산이 결과에 영향을 주는 형태였습니다. 하지
 
 ## LSTM
 
-<이미지 2>
+![030-2](https://user-images.githubusercontent.com/63298243/105702810-ac239400-5f4f-11eb-99a1-493b8a1b00d9.png)
 
 LSTM은 Long Short-Term Memory(장단기 메모리)라고 합니다.
 
@@ -29,7 +29,7 @@ LSTM은 Vanilla RNN보다 비교적 긴 시퀀스(time step)를 처리하는데 
 
 ### 입력 게이트
 
-이미지 4
+![030-3](https://user-images.githubusercontent.com/63298243/105702815-aded5780-5f4f-11eb-9472-9cfb46b8d3d0.png)
 
 i<sub>t</sub>=σ(W<sub>xi</sub>x<sub>t</sub>+W<sub>hi</sub>h<sub>t-1</sub>+b<sub>i</sub>)  
 g<sub>t</sub>=tanh(W<sub>xg</sub>x<sub>t</sub>+W<sub>hg</sub>h<sub>t-1</sub>+b<sub>g</sub>)
@@ -42,7 +42,7 @@ g<sub>t</sub>=tanh(W<sub>xg</sub>x<sub>t</sub>+W<sub>hg</sub>h<sub>t-1</sub>+b<s
 
 ### 삭제 게이트
 
-이미지 5
+![030-4](https://user-images.githubusercontent.com/63298243/105702817-ae85ee00-5f4f-11eb-8905-4ceb6b73ea7e.png)
 
 f<sub>t</sub>=σ(W<sub>xf</sub>x<sub>t</sub>+W<sub>hf</sub>h<sub>t-1</sub>+b<sub>f</sub>)
 
@@ -56,7 +56,7 @@ f<sub>t</sub>=σ(W<sub>xf</sub>x<sub>t</sub>+W<sub>hf</sub>h<sub>t-1</sub>+b<sub
 
 ### 셀 상태 (장기 상태)
 
-이미지 6
+![030-5](https://user-images.githubusercontent.com/63298243/105702819-ae85ee00-5f4f-11eb-9aeb-4c7de2adce16.png)
 
 C<sub>t</sub>=f<sub>t</sub>∘C<sub>t-1</sub>+i<sub>t</sub>∘g<sub>t</sub>
 
@@ -76,7 +76,7 @@ C<sub>t</sub>=f<sub>t</sub>∘C<sub>t-1</sub>+i<sub>t</sub>∘g<sub>t</sub>
 
 ### 출력 게이트 (단기 상태)
 
-이미지 7
+![030-6](https://user-images.githubusercontent.com/63298243/105702822-af1e8480-5f4f-11eb-8434-32b9d310a115.png)
 
 o<sub>t</sub>=σ(W<sub>xo</sub>x<sub>t</sub>+W<sub>ho</sub>h<sub>t-1</sub>+b<sub>o</sub>)
 h<sub>t</sub>=o<sub>t</sub>∘tanh(c<sub>t</sub>)
