@@ -70,7 +70,7 @@ Development environment = Anaconda - Spyder 4.0.1
 |28|[CNN 실습3](./AI_Class/028/CNN3.ipynb)|CNN으로 의류 이미지 분류|
 |*|RNN||
 |29|[RNN 이론](./AI_Class/029/README.md)|RNN 이론에 대한 설명|
-|29|[LSTM 이론](./AI_Class/030/README.md)|LSTM 이론에 대한 설명|
+|30|[LSTM 이론](./AI_Class/030/README.md)|LSTM 이론에 대한 설명|
 
 ## 딥러닝을 다루면서 드는 생각들
 - 기계가 사람처럼 생각이 가능한가?
