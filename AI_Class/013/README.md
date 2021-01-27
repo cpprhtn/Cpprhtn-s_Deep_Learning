@@ -75,6 +75,32 @@ plt.show()
 
 ![2-3](https://user-images.githubusercontent.com/63298243/90748457-2ac73600-e30d-11ea-93c3-c96350ab2763.png)
 
+
+## 하이퍼볼릭 탄젠트 함수 (tanh)
+- 시그모이드 함수와 거의 비슷하나, 0근처에서의 변화율이 더 크다.
+- 주로 RNN(순환 신경망)에서 사용한다.
+
+#### tanh 함수 구현
+```Py
+def tanh_F(x):
+  return np.tanh(x)
+```
+
+#### 함수 그래프
+```Py
+import numpy as np
+import matplotlib.pyplot as plt
+x = np.arange(-5.0, 5.0, 0.1)
+y = tanh_F(x)
+plt.plot(x, y)
+plt.ylim(-0.1, 1.1)
+plt.show()
+```
+
+<img width="823" alt="013-1" src="https://user-images.githubusercontent.com/63298243/105956842-bbbfeb80-60bb-11eb-9791-d00fa025436e.png">
+
+
+
 ## 렐루 함수 (Rectified Linear Unit)
 - 비교적 최근에 만들어진 신경망 활성화 함수이다.
 - 시그모이드 함수보다 많이 사용한다.
@@ -104,3 +130,4 @@ def LeakyReLU(x):
 - 여기서 a값이 0.01일때 LeakyReLU(LReLU)라고 한다.
 
 ![2-6](https://user-images.githubusercontent.com/63298243/90751237-d3c36000-e310-11ea-9965-59f175127c80.png)
+
