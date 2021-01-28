@@ -29,7 +29,7 @@ Development environment = Anaconda - Spyder 4.0.1
 |1|인공지능 소개|
 |2|인공지능 발전의 역사|
 |3|문제 해결 및 탐색 전략|
-|4|휴리스틱 탐색|
+|4|강화학습 소개|
 
 ## 실습 강의 목록
 |Date|Title|Description|
