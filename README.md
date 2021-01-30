@@ -30,6 +30,9 @@ Development environment = Anaconda - Spyder 4.0.1
 |2|인공지능 발전의 역사|
 |3|문제 해결 및 탐색 전략|
 |4|강화학습 소개|
+|5|마르코프 과정|
+|6|자연어 처리|
+|7|컴퓨터 비전|
 
 ## 실습 강의 목록
 |Date|Title|Description|
