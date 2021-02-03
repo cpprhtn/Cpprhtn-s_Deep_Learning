@@ -1,4 +1,4 @@
-# Cppthrn's_Deep_Learning
+# Cpprhtn's_Deep_Learning
 #### (주의)Python 문법에 대한 설명은 하지않음
 
 
@@ -39,6 +39,7 @@ Development environment = Anaconda - Spyder 4.0.1
 |:---:|:---|:---|
 |*|참고서||
 |*|[전처리 참고서](./AI_Class/000/전처리-참고서.ipynb)||
+|*|[시각화 참고서](./AI_Class/000/시각화-참고서.ipynb)||
 |1|[머신러닝의 종류](./AI_Class/001/README.md)|지도학습, 비지도학습, 강화학습, 준지도학습에 대한 설명|
 |*|지도학습||
 |2|[단순회귀분석](./AI_Class/002/Simple_linear_regression.ipynb)|단순회귀분석에 대한 설명|
