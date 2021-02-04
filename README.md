@@ -92,4 +92,4 @@ Development environment = Anaconda - Spyder 4.0.1
   - 의도되지 않은 실수
   - 역량을 벗어난 수행을 할 때 발생?
 
-  - 이루다 사례를 보면서, Input 데이터가 얼마나 중요한지를 다시 느낌
+- 이루다 사례를 보면서, Input 데이터가 얼마나 중요한지를 다시 느낌
