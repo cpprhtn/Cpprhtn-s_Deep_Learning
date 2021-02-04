@@ -79,6 +79,18 @@ Development environment = Anaconda - Spyder 4.0.1
 |29|[RNN 이론](./AI_Class/029/README.md)|RNN 이론에 대한 설명|
 |30|[LSTM 이론](./AI_Class/030/README.md)|LSTM 이론에 대한 설명|
 
+
+##Tensorflow-gpu 버전을 쓰면서 생긴 에러에 대한 해결법
+
+```py
+from tensorflow.compat.v1 import ConfigProto
+from tensorflow.compat.v1 import InteractiveSession
+
+config = ConfigProto()
+config.gpu_options.allow_growth = True
+session = InteractiveSession(config=config)
+```
+
 ## 딥러닝을 다루면서 드는 생각들
 - 기계가 사람처럼 생각이 가능한가?
   - 윤리의식이나 도덕적 행동에 대한 이해가 가능할까?
