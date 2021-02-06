@@ -29,17 +29,23 @@ Development environment = Anaconda - Spyder 4.0.1
 |1|인공지능 소개|
 |2|인공지능 발전의 역사|
 |3|문제 해결 및 탐색 전략|
-|4|강화학습 소개|
-|5|마르코프 과정|
-|6|자연어 처리|
-|7|컴퓨터 비전|
+|4|휴리스틱 탐색|
+|5|강화학습 소개|
+|6|마르코프 과정|
+|7|자연어 처리|
+|8|컴퓨터 비전|
 
 ## 실습 강의 목록
 |Date|Title|Description|
 |:---:|:---|:---|
 |*|참고서||
+||||
+|*|[What is EDA](./AI_Class/000/EDA.md)||
 |*|[전처리 참고서](./AI_Class/000/전처리-참고서.ipynb)||
 |*|[시각화 참고서](./AI_Class/000/시각화-참고서.ipynb)||
+||||
+|*|머신러닝||
+||||
 |1|[머신러닝의 종류](./AI_Class/001/README.md)|지도학습, 비지도학습, 강화학습, 준지도학습에 대한 설명|
 |*|지도학습||
 |2|[단순회귀분석](./AI_Class/002/Simple_linear_regression.ipynb)|단순회귀분석에 대한 설명|
@@ -53,7 +59,9 @@ Development environment = Anaconda - Spyder 4.0.1
 |*|비지도학습||
 |9|[k-Means](./AI_Class/009/k_Means.ipynb)|k-Means에 대한 설명|
 |10|[DBSCAN](./AI_Class/010/DBSCAN.ipynb)|DBSCAN에 대한 설명|
-|*|신경망||
+||||
+|*|딥러닝||
+||||
 |11|[머신러닝과 딥러닝](./AI_Class/011/README.md)|머신러닝과 딥러닝, ANN에 대한 설명|
 |12|[퍼셉트론](./AI_Class/012/README.md)|퍼셉트론 개념 설명|
 |13|[활성화함수1](./AI_Class/013/README.md)|활성화 함수 설명1|
