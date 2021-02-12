@@ -18,10 +18,14 @@ AI기술인 머신러닝과 딥러닝중 딥러닝을 먼저 알아야 한다고
 인공 신경망의 설계는 인간 두뇌의 생물학적 신경망에서 영감을 얻어,
 표준 머신 러닝 모델보다 훨씬 더 뛰어난 학습 프로세스를 제공한다.
 
+
+### Development Environment
 ```
 Python Verson = 3.7
 
 Development environment = Anaconda - Spyder 4.0.1
+
+Google Colab
 ```
 ## 개론 강의 목록
 |Date|Title|
