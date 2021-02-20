@@ -23,6 +23,8 @@ AI기술인 머신러닝과 딥러닝중 딥러닝을 먼저 알아야 한다고
 ```
 Python Verson = 3.7
 
+Jupyter notebook = 6.1.4
+
 Google Colab
 ```
 ## 개론 강의 목록
