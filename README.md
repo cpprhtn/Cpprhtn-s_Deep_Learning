@@ -65,7 +65,7 @@ Google Colab
 ||||
 |*|딥러닝||
 ||||
-|11|[머신러닝과 딥러닝](./AI_Class/011/README.md)|머신러닝과 딥러닝, ANN에 대한 설명|
+|11|[딥러닝이란](./AI_Class/011/README.md)|머신러닝과 딥러닝, ANN에 대한 설명|
 |12|[퍼셉트론](./AI_Class/012/README.md)|퍼셉트론 개념 설명|
 |13|[활성화함수1](./AI_Class/013/README.md)|활성화 함수 설명1|
 |14|[활성화함수2](./AI_Class/014/README.md)|활성화 함수 설명2|
