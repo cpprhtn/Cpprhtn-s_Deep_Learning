@@ -58,7 +58,7 @@ Google Colab
 |5|[KNN](./AI_Class/005/knn_classification.ipynb)|KNN에 대한 설명|[실습](https://github.com/cpprhtn/Cpprhtn-s_Deep_Learning/blob/master/AI_Class/005/knn_classification1.ipynb)|
 |6|[SVM](./AI_Class/006/svm_classification.ipynb)|SVM에 대한 설명|[실습](https://github.com/cpprhtn/Cpprhtn-s_Deep_Learning/blob/master/AI_Class/006/svm_classification-1.ipynb)|
 |\*|CART(분류, 회귀 둘다 가능)|||
-|7|[DecisionTree](./AI_Class/007/decision_tree.ipynb)|DecisionTree에 대한 설명||
+|7|[DecisionTree](./AI_Class/007/decision_tree.ipynb)|DecisionTree에 대한 설명|[실습](https://github.com/cpprhtn/Cpprhtn-s_Deep_Learning/blob/master/AI_Class/007/decision_tree_1.ipynb)|
 |8|[RandomForest](./AI_Class/008/random_forest.ipynb)|RandomForest에 대한 설명||
 |\*|비지도학습|||
 |9|[k-Means](./AI_Class/009/k_Means.ipynb)|k-Means에 대한 설명||
