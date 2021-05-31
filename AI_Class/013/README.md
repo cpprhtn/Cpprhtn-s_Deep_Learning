@@ -123,7 +123,7 @@ def relu(x):
 
 #### P-렐루 함수 구현
 ```Py
-def LeakyReLU(x):
+def PReLU(x):
     a = 0.05 //0 이하에 곱해줄 값
     return np.maximum(a*x, x)
 ```
