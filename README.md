@@ -61,8 +61,8 @@ Google Colab
 |7|[DecisionTree](./AI_Class/007/decision_tree.ipynb)|DecisionTree에 대한 설명|[실습](https://github.com/cpprhtn/Cpprhtn-s_Deep_Learning/blob/master/AI_Class/007/decision_tree_1.ipynb)|
 |8|[RandomForest](./AI_Class/008/random_forest.ipynb)|RandomForest에 대한 설명|[실습](https://github.com/cpprhtn/Cpprhtn-s_Deep_Learning/blob/master/AI_Class/008/random_forest_1.ipynb)|
 |\*|비지도학습|||
-|9|[k-Means](./AI_Class/009/k_Means.ipynb)|k-Means에 대한 설명||
-|10|[DBSCAN](./AI_Class/010/DBSCAN.ipynb)|DBSCAN에 대한 설명||
+|9|[k-Means](./AI_Class/009/k_Means.ipynb)|k-Means에 대한 설명|[실습](https://github.com/cpprhtn/Cpprhtn-s_Deep_Learning/blob/master/AI_Class/009/k_Means-1.ipynb)|
+|10|[DBSCAN](./AI_Class/010/DBSCAN.ipynb)|DBSCAN에 대한 설명|[실습](https://github.com/cpprhtn/Cpprhtn-s_Deep_Learning/blob/master/AI_Class/010/DBSCAN-1.ipynb)|
 |||||
 |\*|딥러닝|||
 |||||
