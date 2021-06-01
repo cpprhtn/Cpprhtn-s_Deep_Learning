@@ -55,7 +55,7 @@ plt.show()
 ## 시그모이드 함수 (Sigmoid Function)
 - 시그모이드 함수는 신경망에서 사용하는 활성화 함수 중 하나이다.
 - S자 모양의 함수라는 뜻이다.
-
+- Vanishing Gradient 문제로 사용하지 않는다.
 #### 시그모이드 함수 구현
 ```Py
 def sigmoid(x):
