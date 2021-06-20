@@ -78,7 +78,7 @@ Google Colab
 |20|[Keras 모델 사용방법](./AI_Class/020/README.md)|케라스 라이브러리를 이용해 딥러닝 모델 생성하는 방법 알아보기||
 |\*|DNN|||
 |21|[DNN 실습](./AI_Class/021/Dnn.ipynb)|이제까지 배운 방법을 통해서 딥러닝 모델로 제작|[실습](https://github.com/cpprhtn/Cpprhtn-s_Deep_Learning/blob/master/AI_Class/21/Dnn1.ipynb)|
-|22|[DNN 실습2](./AI_Class/022/Dnn2.ipynb)|실습 2||
+|22|[DNN 실습2](./AI_Class/022/Dnn2.ipynb)|실습 2|[실습](https://github.com/cpprhtn/Cpprhtn-s_Deep_Learning/blob/master/AI_Class/22/Dnn2.ipynb)|
 |23|[DNN 실습3](./AI_Class/023/README.md)|캐글에서 실제로 적용해보기||
 |\*|개인 프로젝트|||
 |24|[개인 프로젝트 진행순서](./AI_Class/024/README.md)|DNN모델을 이용한 개인 프로젝트 진행해보기||
