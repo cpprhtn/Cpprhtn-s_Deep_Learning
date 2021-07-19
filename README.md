@@ -102,6 +102,10 @@ config.gpu_options.allow_growth = True
 session = InteractiveSession(config=config)
 ```
 
+```py
+import os
+os.environ['TF_XLA_FLAGS'] = '--tf_xla_enable_xla_devices'
+```
 ## 딥러닝을 다루면서 드는 생각들
 - 기계가 사람처럼 생각이 가능한가?
   - 윤리의식이나 도덕적 행동에 대한 이해가 가능할까?
