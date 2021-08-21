@@ -106,6 +106,23 @@ session = InteractiveSession(config=config)
 import os
 os.environ['TF_XLA_FLAGS'] = '--tf_xla_enable_xla_devices'
 ```
+
+'''py
+#GPU 멀티로 돌아갈 때, 단일지정 코드
+import tensorflow as tf 
+
+gpus = tf.config.experimental.list_physical_devices('GPU')
+if gpus:
+    try:
+        # Currently, memory growth needs to be the same across GPUs
+        for gpu in gpus:
+            tf.config.experimental.set_memory_growth(gpu, True)
+        logical_gpus = tf.config.experimental.list_logical_devices('GPU')
+        print(len(gpus), "Physical GPUs,", len(logical_gpus), "Logical GPUs")
+    except RuntimeError as e:
+        # Memory growth must be set before GPUs have been initialized
+        print(e)
+'''
 ## 딥러닝을 다루면서 드는 생각들
 - 기계가 사람처럼 생각이 가능한가?
   - 윤리의식이나 도덕적 행동에 대한 이해가 가능할까?
