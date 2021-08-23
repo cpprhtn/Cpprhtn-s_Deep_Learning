@@ -107,7 +107,7 @@ import os
 os.environ['TF_XLA_FLAGS'] = '--tf_xla_enable_xla_devices'
 ```
 
-'''py
+```py
 #GPU 멀티로 돌아갈 때, 단일지정 코드
 import tensorflow as tf 
 
@@ -122,7 +122,8 @@ if gpus:
     except RuntimeError as e:
         # Memory growth must be set before GPUs have been initialized
         print(e)
-'''
+```
+
 ## 딥러닝을 다루면서 드는 생각들
 - 기계가 사람처럼 생각이 가능한가?
   - 윤리의식이나 도덕적 행동에 대한 이해가 가능할까?
