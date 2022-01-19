@@ -48,7 +48,7 @@
     - 이상치 탐지와 특이치 탐지
     - one-class SVM (원-클래스)
     - isolation forest
-    - 
+    
 ![001-2](https://user-images.githubusercontent.com/63298243/97889616-eaa21c00-1d6f-11eb-85c4-d69104891410.png)
 
 
