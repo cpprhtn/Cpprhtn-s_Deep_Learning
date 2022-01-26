@@ -47,6 +47,7 @@ Google Colab
 |\*|[What is EDA](./AI_Class/000/EDA.md)|||
 |\*|[전처리 참고서](./AI_Class/000/전처리-참고서.ipynb)|||
 |\*|[시각화 참고서](./AI_Class/000/시각화-참고서.ipynb)|||
+|\*|[스케일링 참고서](./AI_Class/000/스케일링-참고서.ipynb)|||
 |||||
 |\*|머신러닝|||
 |||||
